@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior:smooth; }
+body { margin:0; background:#f8fafc; color:#1e293b; }
+.glass-nav { background:rgba(255,255,255,.92); backdrop-filter:blur(12px); }
+.hero-gradient { background:linear-gradient(135deg,#00AEEF 0%,#008DDA 50%,#0B2F50 100%); }
+.wave-bg { background-image:radial-gradient(#00AEEF .75px,transparent .75px); background-size:16px 16px; }
+.gradient-text { background:linear-gradient(135deg,#00f2fe 0%,#4facfe 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+.glass-panel-dark { background:rgba(15,23,42,.95); backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); }
+input[type=range]{accent-color:#00f2fe}
+#leafletMap { min-height:420px; }
